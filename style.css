@@ -1,0 +1,536 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', serif;
+}
+
+.main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    margin: 56px 0 80px 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-weight: 400;
+}
+
+.navmenu a {
+    text-decoration: none;
+    color: #1F1534;
+}
+
+.home {
+    font-weight: 700;
+}
+
+.element {
+    width: 132px;
+    height: 115px;
+    position: absolute;
+    left: -25px;
+    top: 160px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.hero_content {
+    max-width: 445px;
+    max-height: 338px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000;
+    padding: 0 0 10px 0;
+    text-align: left;
+}
+
+.text {
+    padding: 20px 0 0px 0;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #7d7987;
+    text-align: left;
+}
+
+.hero_button1 {
+    text-decoration: none;
+    width: 200px;
+    height: 56px;
+    color: #fff;
+    background-color: #458ff6;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+    font-weight: 700;
+    margin-top: 45px;
+}
+
+section.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 190px;
+    gap: 30px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 220px;
+}
+
+.our-services-text {
+    width: 100%;
+    max-width: 952px;
+    height: 60px;
+    color: #7D7987;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.tear {
+    position: absolute;
+    top: -30px;
+    left: -80px;
+    z-index: -1;
+}
+
+.taskeliai {
+    position: absolute;
+    top: 510px;
+    right: 70px;
+    z-index: -1;
+}
+
+.line {
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+}
+
+.services-bin {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 35px;
+    padding: 40px;
+    position: relative;
+}
+
+.service {
+    width: 100%;
+    max-width: 350px;
+    height: 354px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, .4);
+    border-radius: 20px;
+    text-align: left;
+    padding: 54px 45px 47px 40px;
+    background: white;
+    position: relative;
+}
+
+.service h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+}
+
+.service p {
+    color: #7d7987;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.white-button {
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.leading {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.leading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    max-width: 486px;
+    gap: 30px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+}
+
+.download-block {
+    margin: 250px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.download-container {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.taskeliai1 {
+    position: absolute;
+    right: 1px;
+}
+
+.white-button img {
+    margin: 0 0 0 10px;
+}
+
+.line2 {
+    width: 56px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-content {
+    background: linear-gradient(to bottom, #67C3F3, #5A98F2);
+    width: 100%;
+    max-width: 1100px;
+    height: 425px;
+    gap: 25px;
+    color: #fff;
+    border-radius: 24px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-weight: 700;
+}
+
+.taskeliai2 {
+    position: absolute;
+    right: -50px;
+    top: -20px;
+}
+
+.taskeliai3 {
+    position: absolute;
+    left: -50px;
+    top: 280px;
+    z-index: -1;
+}
+
+.testimonials-text {
+    font-size: 36px;
+}
+
+.eddie {
+    font-size: 22px;
+}
+
+.founder {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF85;
+}
+
+.testimonials-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 65px;
+    flex-wrap: wrap;
+}
+
+.testimonials-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px 0 30px;
+}
+
+.subtle {
+    width: 100%;
+    max-width: 420px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF90;
+}
+
+.slider {
+    display: flex;
+    gap: 90px;
+    margin: 42px 0 220px 0;
+    flex-wrap: wrap;
+}
+
+.latest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.latest-bin {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.bin-box {
+    width: 100%;
+    max-width: 350px;
+    height: 512px;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    margin-top: 80px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.bin-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    padding: 24px 53px 0 32px;
+}
+
+.bin-box h3 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.bin-box p {
+    color: #7D7987;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.bin-box a {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: #4089ED;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.taskeliai4 {
+    position: absolute;
+    left: -50px;
+    top: 36px;
+    z-index: -1;
+}
+
+.tear2 {
+    position: absolute;
+    z-index: -1;
+    top: -2px;
+    right: -270px;
+}
+
+.footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: #FFFFFF;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.footer-trafalgar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 391px;
+}
+
+.logontext {
+    display: flex;
+    align-items: center;
+}
+
+.tlogo {
+    border-radius: 41px;
+    width: 41px;
+    height: 41px;
+    text-align: center;
+    background-color: #FFFFFF;
+    line-height: 41px;
+    color: #5B9BF3;
+    margin-right: 10px;
+    font-size: 26px;
+}
+
+.trafname {
+    font-size: 24px;
+}
+
+.footer-trafalgar p {
+    font-weight: 300;
+}
+
+.traf-text {
+    font-size: 18px;
+}
+
+.traf-text2 {
+    font-size: 16px;
+}
+
+.traf.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.traf.boxes h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.traf.boxes a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.taskeliai5 {
+    position: absolute;
+    top: -70px;
+    right: 90px;
+    z-index: -1;
+}
+
+.taskeliai6 {
+    position: absolute;
+    top: 290px;
+    left: 0px;
+    z-index: 1;
+}
+
+@media (max-width: 960px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero_content {
+        align-items: center;
+    }
+
+    .services-bin {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leading {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download .white-button {
+        margin-bottom: 50px;
+    }
+
+    .testimonials-content {
+        width: 90%;
+        gap: 0px;
+    }
+
+    .testimonials-content h1 {
+        margin-top: 20px;
+        font-size: 26px;
+    }
+
+    .testimonials-block {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .testimonials-info {
+        margin: 20px;
+    }
+
+    .subtle {
+        font-size: 15px;
+    }
+
+    .latest-bin {
+        flex-direction: column;
+        align-items: center;
+    }
+}
