@@ -4,7 +4,7 @@ HTML + CSS trafalgar page.
 
 ## Description
 
-HTML + CSS trafalgar page with no functionality.
+HTML + CSS trafalgar (medical) page with no functionality.
 
 ### Executing program
 
